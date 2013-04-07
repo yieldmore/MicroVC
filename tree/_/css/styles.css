@@ -1,0 +1,23 @@
+body { font-family: Verdana; }
+a { color: #4986e7; font: bold 11pt Verdana; text-decoration: none; }
+#family li { list-style-type: none; }
+.broken { color: #cc0000; }
+
+.nav { margin: 0px 5px 5px 0px; padding: 4px; border: 1px #660099 solid; background-color: #ccffcc; display: inline-block; }
+#ancestors, #siblings, #info { margin-bottom: 10px; }
+#ancestors strong, #siblings strong, #info strong { display: inline-block; width: 70px; text-align: right; }
+#ancestors span { font-size: 9px; position: relative; top: -2px; }
+#ancestors span { padding-right: 12px; background: url(child.png) no-repeat right center; }
+#ancestors span.last { padding-left: 0px; background: none; }
+
+form { display: inline; }
+form label { font-size: 8pt; }
+hr { color: silver; background-color: silver; height: 1px; margin: 6px 0 10px 0; border: none; }
+
+table.grid { border-collapse: collapse; }
+table.grid td, table.grid th { padding: 4px; color: #333; }
+table.grid th { text-align: left; padding: 4px; background-color: #dfdedb; }
+table.grid tr.alt td { background-color: #f2f2f2; }
+
+.orgChart table { border: 1px #993366 solid; }
+.orgChart table table { border: none; }
