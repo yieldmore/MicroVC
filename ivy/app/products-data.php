@@ -1,7 +1,7 @@
 <?php
 $products = array(
   'iviewer' => array(
-    'name' => 'IViewer', 'ver' => '5.5.515', 'date' => '21 Jan 2013', 'exe' => 'Cselian.IViewer',
+    'name' => 'IViewer', 'ver' => '5.5.540', 'date' => '05 Dec 2014', 'exe' => 'Cselian.IViewer',
     'desc' => 'A media player and organizer',
     'targets' => 'music enthusiasts, students and general public',
     'feat' => 'search as you type, file / playlist panes, lyrics display.',
@@ -42,7 +42,7 @@ $products = array(
     ),
   ),
   'win-xt' => array(
-    'name' => 'Win XT', 'ver' => '1.3.47', 'date' => '24 Feb 2013', 'exe' => 'Cselian.WinXT',
+    'name' => 'Win XT', 'ver' => '1.5.50', 'date' => '16 Dec 2014', 'exe' => 'Cselian.WinXT',
     'desc' => 'Windows Extensions',
     'targets' => 'general and power users',
     'feat' => 'Folder Shortcuts, Explore From',

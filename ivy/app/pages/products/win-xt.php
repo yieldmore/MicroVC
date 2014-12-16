@@ -11,10 +11,9 @@
   <li>Reorganize folders</li>
   <li>Favorites have their own menus for quick navigation</li>
   <li>Drag from Recent to Folders</li>
-  <li>Drag from list of open explorer windows (TBD)</li>
+  <li>Drag from list of open explorer windows</li>
   <li>At-a-glance View of buttons and sub-buttons</li>
-  <li>Search as you type (TBE)</li>
-  <li></li>
+  <li>Search as you type</li>
 </ul>
 <h3>Tools</h3>
 It also includes other tools like the Digital "Clocky"

@@ -33,7 +33,7 @@ For <?php echo $data['targets']; ?><br />
 <u>Features</u>: <?php echo $data['feat']; ?><br />
 <u>Roadmap</u>: <?php echo $data['rmap']; ?><br />
 <u>Effort</u>: <?php echo $data['time']; ?><br />
-
+<u>Source code</u>: <a target="_blank" href="https://bitbucket.org/ianamazi/ivy/src/">ianamazi/ivy</a><br />
 <div class="clear"></div>
 <hr />
 <?php include $content; ?>

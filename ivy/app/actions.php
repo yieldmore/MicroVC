@@ -54,7 +54,7 @@ class Actions extends Controller
   
   private static function pageFile($name, $content = 1)
   {
-    if ($page == 'css') return site_file('css/styles.css', $content);
+    if ($name == 'css') return site_file('css/styles.css', $content);
     $fol = is_product($name) ? 'products/' : '';
     return site_file('app/pages/' . $fol . $name . '.php', $content);
   }
