@@ -22,8 +22,4 @@ See: https://github.com/ImranCS/MicroVC/wiki/Application
 
 Showcase
 ----------
-http://lailaborrie.com
-http://ivy.cselian.com
-http://art.cselian.com
-http://tree.cselian.com
-http://test.lastresort.co.in
+http://lastresort.co.in, http://lailaborrie.com, http://ivy.cselian.com, http://tree.cselian.com
