@@ -21,7 +21,7 @@ where p.name like '%s'", '%' . $name . '%');
   
   function families()
   {
-    return db_select('select f.id, f.name, p.id as headId, p.name as head, lft, rgt from families f join people p on f.person_id = p.id where f.id != 3', 'array');
+    return db_select('select f.id, f.name, p.id as headId, p.name as head, lft, rgt from families f join people p on f.person_id = p.id where f.id = 1', 'array');
   }
   
   // per person / family

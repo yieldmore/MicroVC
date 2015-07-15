@@ -1,0 +1,22 @@
+body { font-family: Verdana; background-color: #006699; }
+#container { max-width: 800px; padding: 10px; margin: 0 auto; background-color: #fff; }
+
+header { height: 90px; background: url(ltu.png) top right no-repeat; 
+  border-bottom: 3px solid #174466; margin-bottom: 15px; }
+hr#footer { background-color: #174466; height: 3px; margin: 6px 0 10px 0; border: none; }
+
+header h1 { margin: 0 auto; color: #174466; font-size: 24px; }
+#nav a { padding: 8px; margin: 16px 10px 0 0; border: 1px #660099 solid; 
+  background-color: #FFFFF0; display: inline-block; }
+
+#content { margin: 15px 0 15px 0; }
+a { color: #4986e7; font: bold 11pt Verdana; text-decoration: none; }
+.right { float: right; }
+
+form { display: inline; }
+form label { font-size: 8pt; }
+
+table.grid { border-collapse: collapse; }
+table.grid td, table.grid th { padding: 4px; color: #333; }
+table.grid th { text-align: left; padding: 4px; background-color: #dfdedb; }
+table.grid tr.alt td { background-color: #f2f2f2; }

@@ -1,5 +1,5 @@
 <?php
-$db['environment'] = 'dev';
+$db['environment'] = $_SERVER['REMOTE_ADDR'] == 'localhost' ? 'dev' : 'web';
 config_db('localhost', $safe['localuser'], $safe['localpwd'], 'tree', 'dev');
 config_db('localhost', $safe['webuser'], $safe['webpwd'], 'cselian_tree', 'web');
 

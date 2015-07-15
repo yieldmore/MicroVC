@@ -48,6 +48,6 @@
 
 <h2>License to use</h2>
 <p>
-  Ivy Apps are all FREE to use unless expressly stated otherwise, source code is copyrighted though available 
-  <a href="mailto:ivy@cselian.com">on request</a> and donations are welcome.
+  Ivy Apps are all FREE to use. Source code is available at
+  <a target="_blank" href="https://bitbucket.org/ianamazi/ivy/src/">ianamazi/ivy</a> and <?php echo link_r(site_url('donate', 1), 'donations'); ?> are welcome.
 </p> 

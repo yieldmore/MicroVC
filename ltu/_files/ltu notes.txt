@@ -1,0 +1,16 @@
+LTU Online InfoSec Lab Homepage
+
+#19 June
+
+Install xampp, pspad, sqlyog and git (bitbucket) as per
+http://tg.cselian.com/docs/environment-setup
+
+Use SQL Yog or the web client
+http://localhost/phpmyadmin
+
+schedules table - reading
+
+#20 June
+http://www.sitepoint.com/a-basic-html5-template/
+template
+
