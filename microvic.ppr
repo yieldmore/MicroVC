@@ -1,0 +1,233 @@
+[Config]
+Compilator.SaveAll=0
+Compilator.Capture=0
+Compilator.HideOutput=0
+Compilator.ProgSaveAll=0
+Compilator.ProgRunSelection=0
+Compilator.LogType=0
+DefaultDir=D:\Tasks\xampp\htdocs\cs\subs\microvic
+DefaultCPIndex=0
+LogtoEnd=1
+DontOpen=0
+AbsolutePath=0
+FileFormat=0
+ProjectFilesOnly=0
+Extensions=*.*
+[Project tree]
+microvic
+	+microvic
+		-demo
+			-_
+				-css
+					demo\_\css\logo.png
+					demo\_\css\style.css
+			-app
+				-templates
+					-default
+						demo\app\templates\default\footer.php
+						demo\app\templates\default\header.php
+				-views
+					demo\app\views\construction.php
+					demo\app\views\home.php
+				demo\app\actions.php
+				demo\app\config.php
+			-help
+				demo\help\index.md
+			demo\.htaccess
+			demo\index.php
+		+inc
+			-3p
+				inc\3p\db_mysql_result.php
+				inc\3p\db_result.php
+				inc\3p\Table.php
+			inc\bootstrap.php
+			inc\controller.php
+			inc\db.php
+			inc\functions.php
+			inc\local.php
+			inc\view.php
+		+ivy
+			+app
+				-pages
+					-products
+						ivy\app\pages\products\aio.php
+						ivy\app\pages\products\ftp-sync.php
+						ivy\app\pages\products\iviewer.php
+						ivy\app\pages\products\updater.php
+						ivy\app\pages\products\win-xt.php
+					ivy\app\pages\about.php
+					ivy\app\pages\contact.php
+					ivy\app\pages\contact-form.php
+					ivy\app\pages\demos.php
+					ivy\app\pages\donate.php
+					ivy\app\pages\games.php
+					ivy\app\pages\home.php
+					ivy\app\pages\utils.php
+				-templates
+					-default
+						ivy\app\templates\default\footer.php
+						ivy\app\templates\default\header.php
+				-views
+					ivy\app\views\edit.php
+					ivy\app\views\edit-index.php
+					ivy\app\views\page.php
+					ivy\app\views\product.php
+				ivy\app\actions.php
+				ivy\app\config.php
+				ivy\app\functions.io.php
+				ivy\app\functions.nav.php
+				ivy\app\mailus.php
+				ivy\app\products-data.php
+			-css
+				ivy\css\ivy.jpg
+				ivy\css\nav.png
+				ivy\css\styles.css
+			-downloads
+				ivy\downloads\ftp-sync.zip
+				ivy\downloads\index.html
+				ivy\downloads\iviewer.zip
+				ivy\downloads\ScheduleCatcher.zip
+				ivy\downloads\updater.zip
+				ivy\downloads\win-xt.zip
+			-img
+				-games
+					ivy\img\games\chess.png
+					ivy\img\games\freecell.jpg
+					ivy\img\games\sudoku.png
+				-icons
+					ivy\img\icons\aio.png
+					ivy\img\icons\ftpsync.png
+					ivy\img\icons\ftp-sync.png
+					ivy\img\icons\iviewer.png
+					ivy\img\icons\updater.png
+					ivy\img\icons\win-xt.png
+				ivy\img\aio.jpg
+				ivy\img\clocky.jpg
+				ivy\img\ftp-sync.jpg
+				ivy\img\index.html
+				ivy\img\iviewer.jpg
+				ivy\img\updater.jpg
+				ivy\img\win-xt.jpg
+			-js
+				ivy\js\contact.js
+				ivy\js\home.js
+				ivy\js\jquery.min.js
+			-updates
+				ivy\updates\index.html
+				ivy\updates\IViewer-latest.zip
+				ivy\updates\UpdateVersion-IViewer.xml
+				ivy\updates\UpdateVersion-Win XT.xml
+			ivy\.htaccess
+			ivy\index.php
+		-ltu
+			-_files
+				ltu\_files\data.sql
+				ltu\_files\dev.sql
+				ltu\_files\ltu notes.txt
+				ltu\_files\LTU Online.tdl
+				ltu\_files\tables.sql
+			-app
+				-labs
+					ltu\app\labs\HPC lab.php
+					ltu\app\labs\Network lab.php
+				-templates
+					-default
+						ltu\app\templates\default\footer.php
+						ltu\app\templates\default\header.php
+				-views
+					-pages
+						ltu\app\views\pages\about.php
+						ltu\app\views\pages\home.php
+					ltu\app\views\join.php
+					ltu\app\views\lab.php
+					ltu\app\views\labs.php
+					ltu\app\views\login.php
+				ltu\app\actions.php
+				ltu\app\config.php
+				ltu\app\model.php
+			-css
+				ltu\css\ltu.png
+				ltu\css\styles.css
+			-downloads
+				ltu\downloads\192.168.1.1.rdp
+				ltu\downloads\index.php
+			-inc
+				-3p
+					ltu\inc\3p\db_mysql_result.php
+					ltu\inc\3p\db_result.php
+					ltu\inc\3p\Table.php
+				ltu\inc\bootstrap.php
+				ltu\inc\controller.php
+				ltu\inc\functions.php
+				ltu\inc\mv-db.php
+				ltu\inc\view.php
+			ltu\.gitignore
+			ltu\.htaccess
+			ltu\index.php
+			ltu\README.md
+		-tree
+			-_
+				-css
+					tree\_\css\child.png
+					tree\_\css\jquery.jOrgChart.css
+					tree\_\css\styles.css
+				-js
+					tree\_\js\jquery.jOrgChart.js
+			-app
+				-templates
+					-default
+						tree\app\templates\default\footer.php
+						tree\app\templates\default\header.php
+				-views
+					tree\app\views\_searchform.php
+					tree\app\views\family.php
+					tree\app\views\people.php
+					tree\app\views\search.php
+				tree\app\actions.php
+				tree\app\config.php
+				tree\app\model.php
+				tree\app\view-functions.php
+			tree\.htaccess
+			tree\index.php
+		.gitignore
+		README.md
+[Open project files]
+0=ivy\.htaccess
+1=ivy\index.php
+2=inc\bootstrap.php
+3=ivy\app\actions.php
+4=ivy\app\mailus.php
+5=ivy\app\config.php
+6=ivy\app\functions.io.php
+7=ivy\app\functions.nav.php
+8=ivy\app\products-data.php
+[Selected Project Files]
+Main=
+Selected=ivy\app\products-data.php
+[ivy\.htaccess]
+TopLine=1
+Caret=37,7
+[ivy\index.php]
+TopLine=1
+Caret=31,13
+[inc\bootstrap.php]
+TopLine=39
+Caret=17,72
+[ivy\app\actions.php]
+TopLine=1
+Caret=8,20
+[ivy\app\mailus.php]
+TopLine=1
+Caret=33,28
+[ivy\app\config.php]
+TopLine=1
+Caret=1,1
+[ivy\app\functions.io.php]
+TopLine=1
+Caret=1,1
+[ivy\app\functions.nav.php]
+TopLine=8
+Caret=28,14
+[ivy\app\products-data.php]
+TopLine=1
+Caret=1,1
